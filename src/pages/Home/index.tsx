@@ -43,17 +43,17 @@ const Home: React.FC = () => {
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
           <Shoes
             onClick={() => navigation.navigate('Detail')}
+            img={require('../../assets/2.png')}
+            cost="180,90"
+          >
+            Nike Kyrie 6
+          </Shoes>
+          <Shoes
+            onClick={() => navigation.navigate('Detail')}
             img={require('../../assets/1.png')}
             cost="140,90"
           >
             Nike Air Max Dia
-          </Shoes>
-          <Shoes
-            onClick={() => alert('Clicou')}
-            img={require('../../assets/2.png')}
-            cost="180,90"
-          >
-            Nike Cano Alto
           </Shoes>
         </View>
 
